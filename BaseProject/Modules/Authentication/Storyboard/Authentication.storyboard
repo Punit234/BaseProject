@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="K7e-wk-0zA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login-->
+        <scene sceneID="KZC-4z-pzn">
+            <objects>
+                <viewController storyboardIdentifier="Login" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ozT-aO-LJB" customClass="Login" customModule="JamboMart" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cRE-Rh-hgR"/>
+                        <viewControllerLayoutGuide type="bottom" id="VyY-DD-6dq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pon-dF-bfh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zae-lG-Oeq" userLabel="btnRegister">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" red="0.99963909387588501" green="1" blue="0.99975615739822388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickRegister:" destination="ozT-aO-LJB" eventType="touchUpInside" id="uxx-Ny-15c"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zae-lG-Oeq" secondAttribute="trailing" id="LQe-vE-uA4"/>
+                            <constraint firstItem="VyY-DD-6dq" firstAttribute="top" secondItem="zae-lG-Oeq" secondAttribute="bottom" id="USr-XN-fLe"/>
+                            <constraint firstItem="zae-lG-Oeq" firstAttribute="leading" secondItem="Pon-dF-bfh" secondAttribute="leading" id="cVn-qN-RC0"/>
+                            <constraint firstItem="zae-lG-Oeq" firstAttribute="top" secondItem="cRE-Rh-hgR" secondAttribute="bottom" id="hpZ-jJ-CLA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WWb-Nd-cmV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YdP-iy-QG4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1106" y="-308"/>
+        </scene>
+        <!--Register-->
+        <scene sceneID="9DQ-dD-tUO">
+            <objects>
+                <viewController storyboardIdentifier="Register" useStoryboardIdentifierAsRestorationIdentifier="YES" id="h62-pa-ZhJ" customClass="Register" customModule="JamboMart" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Pp-q4-aqa"/>
+                        <viewControllerLayoutGuide type="bottom" id="9uh-6x-KV2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hcc-yC-UD8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2d-kK-CYd">
+                                <rect key="frame" x="0.0" y="20" width="48" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="Eo4-HP-mko"/>
+                                    <constraint firstAttribute="height" constant="30" id="b0Y-y6-VfS"/>
+                                </constraints>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <action selector="clickBack:" destination="h62-pa-ZhJ" eventType="touchUpInside" id="eKH-nk-ogc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="e2d-kK-CYd" firstAttribute="top" secondItem="6Pp-q4-aqa" secondAttribute="bottom" id="a0q-oB-FLN"/>
+                            <constraint firstItem="e2d-kK-CYd" firstAttribute="leading" secondItem="hcc-yC-UD8" secondAttribute="leading" id="h0H-0E-fWY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gQA-OA-fEV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1815" y="-313"/>
+        </scene>
+        <!--Auth Navigation Controller-->
+        <scene sceneID="0AZ-xi-oHh">
+            <objects>
+                <navigationController storyboardIdentifier="AuthNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" navigationBarHidden="YES" id="K7e-wk-0zA" customClass="AuthNavigationController" customModule="JamboMart" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ljD-Uz-3PR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ozT-aO-LJB" kind="relationship" relationship="rootViewController" id="93P-Kf-WRC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8LW-ZK-Sja" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="400.80000000000001" y="-308.09595202398805"/>
+        </scene>
+    </scenes>
+</document>

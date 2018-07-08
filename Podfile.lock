@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (4.5.0)
+  - IQKeyboardManagerSwift (4.0.10)
+  - Material (2.7.1):
+    - Material/Core (= 2.7.1)
+  - Material/Core (2.7.1)
+  - PermissionScope (1.1.1)
+  - ReachabilitySwift (3)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SwiftyJSON (3.1.4)
+  - SwiftyUserDefaults (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - IQKeyboardManagerSwift
+  - Material (~> 2.0)
+  - PermissionScope
+  - ReachabilitySwift (~> 3)
+  - SDWebImage (~> 4.0)
+  - SwiftyJSON
+  - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  IQKeyboardManagerSwift: 75ba21a23794a1e6b6fe6d9a267ea17f80e06771
+  Material: 13071c7cd340d54b4f9c839b386338a1e082b25e
+  PermissionScope: a30c16e015779ba27c97c124e7539e27b5829de2
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+
+PODFILE CHECKSUM: a353b2638d03db494cd110149c240652e68de011
+
+COCOAPODS: 1.1.1
